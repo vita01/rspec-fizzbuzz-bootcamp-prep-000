@@ -4,11 +4,9 @@ def fizzbuzz(int)
    str = "Fizz"
    end
    elsif int % 5 == 0
-
-    str += "Buzz"
+       str += "Buzz"
     end
     elsif int %5 != 0 && int % 3 != 0
-
       str = int
      end
  puts str

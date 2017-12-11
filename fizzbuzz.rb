@@ -7,7 +7,7 @@ def fizzbuzz(int)
 
     str += "Buzz"
    end
-    elsif i %5 != 0 && i % 3 != 0
+ elsif int %5 != 0 && int % 3 != 0
 
       str = int
      end

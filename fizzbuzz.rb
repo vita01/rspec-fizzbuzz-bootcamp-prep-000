@@ -16,6 +16,7 @@ def fizzbuzz(int)
          result=  "Buzz"
        end
  end
-
-  result
+   else
+     result= nil
+ puts  result
 end

@@ -1,22 +1,7 @@
 def fizzbuzz(int)
-  result='Buzz'
-  if int % 3 == 0 # if the number int is divisible by 3
-      if int % 5 == 0 && int % 3 == 0
-       result=  "FizzBuzz"
-      end
-       else
-    result= "Fizz" # Go fizz
-       end
-    end
-   elsif int % 5 == 0
-       if int % 5 == 0 && int % 3 == 0
-        result=  "FizzBuzz"
-        end
-      else
-         result=  "Buzz"
-       end
- end
-   else
-     result= nil
- puts  result
+  str = ""
+ str = "Fizz" if(i % 3 == 0)
+ str += "Buzz" if(i % 5 == 0)
+ str = i if(i %5 != 0 && i % 3 != 0)
+ p str
 end

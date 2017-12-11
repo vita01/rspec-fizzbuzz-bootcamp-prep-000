@@ -7,6 +7,6 @@ if int % 5 == 0 && int % 3 == 0
   elsif int %  5 == 0
     return "Buzz"
   else
-    return int
+    return nil
   end
 end

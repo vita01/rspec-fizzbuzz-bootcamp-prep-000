@@ -1,12 +1,13 @@
 def fizzbuzz(int)
+  result='Buzz'
   if int % 3 == 0 && int % 5 != 0# if the number int is divisible by 3
-    puts "Fizz" # Go fizz
+    result= "Fizz" # Go fizz
   end
 elsif int % 5 == 0 && int % 3 != 0
-  puts  "Buzz"
+  result=  "Buzz"
  end
  elsif int % 5 == 0 && int % 3 == 0
-  puts  "FizzBuzz"
+  result=  "FizzBuzz"
  end
-
+  result
 end

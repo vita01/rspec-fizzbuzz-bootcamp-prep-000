@@ -1,7 +1,7 @@
 def fizzbuzz(int)
   str = ""
- str = "Fizz" if(i % 3 == 0)
- str += "Buzz" if(i % 5 == 0)
- str = i if(i %5 != 0 && i % 3 != 0)
+ str = "Fizz" if(int % 3 == 0)
+ str += "Buzz" if(int % 5 == 0)
+ str = int if(i %5 != 0 && i % 3 != 0)
  p str
 end
